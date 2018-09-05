@@ -113,6 +113,7 @@ a,a:active,a:focus,input:focus{
     overflow:hidden;
     width:100%;
     height:auto;
+    top: 30%;
     text-align:center;
     z-index:1
 }

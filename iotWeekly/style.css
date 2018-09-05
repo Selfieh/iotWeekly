@@ -15,8 +15,8 @@ body{
     position:absolute;
     top:0;
     left:0;
-    width:99%;
-    height:99%;
+    width:99.54%;
+    height:99.54%;
     z-index:0;
     overflow:visible;
 }
@@ -134,8 +134,8 @@ a,a:active,a:focus,input:focus{
     position:relative;
     overflow:hidden;
     width:100%;
-    height:auto;
-    top: 25%;
+    height:center;
+    top: 10%;
     text-align:center;
     z-index:1
 }

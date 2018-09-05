@@ -20,6 +20,12 @@ body{
     z-index:0;
     overflow:visible;
 }
+#Box{
+    border-style: dashed;
+    border-color: white;
+    padding-bottom: 30px;
+}
+
 ul{
     padding:0;
     margin:0;
@@ -64,6 +70,7 @@ li a:hover:after{
 }
 p{
     font-size:0.75em;
+    color:#DDC225
     line-height:1.875em;
     margin:0;
     padding:0 0 .9375em
@@ -113,11 +120,26 @@ a,a:active,a:focus,input:focus{
     overflow:hidden;
     width:100%;
     height:auto;
-    top: 30%;
     text-align:center;
     z-index:1
 }
 .content-wrapper::before{
+    content:'';
+    display:inline-block;
+    height:100%;
+    margin-right:-.25em;
+    vertical-align:middle
+}
+.home-content-wrapper{
+    position:relative;
+    overflow:hidden;
+    width:100%;
+    height:auto;
+    top: 25%;
+    text-align:center;
+    z-index:1
+}
+.home-content-wrapper::before{
     content:'';
     display:inline-block;
     height:100%;

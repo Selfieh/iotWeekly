@@ -12,7 +12,7 @@ body{
     opacity:50%;
 }
 #drifter,#particles-js{
-    position:absolute;
+    position:fixed;
     top:0;
     left:0;
     width:99.54%;
@@ -131,11 +131,11 @@ a,a:active,a:focus,input:focus{
     vertical-align:middle
 }
 .home-content-wrapper{
-    position:relative;
+    position:absolute;
     overflow:hidden;
     width:100%;
     height:center;
-    top: 10%;
+    top: 30%;
     text-align:center;
     z-index:1
 }
@@ -145,6 +145,19 @@ a,a:active,a:focus,input:focus{
     height:100%;
     margin-right:-.25em;
     vertical-align:middle
+}
+.home-trophies { //
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 400px;
+}
+.winnerName {
+    text-align: center;
+}
+.trophy {
+    float: left;
 }
 .copyright{
     background-color: transparent;
